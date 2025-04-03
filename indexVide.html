@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z - Chat</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="sidebar">
+    
+        <div class="logo">
+            <img src="Image/LogoText.png" style="max-width:600px;width:50%">
+        </div>
+        <button class="add-Friend">
+            <img src="Image/Friends.webp" style="max-width:600px;width:10%">
+            <div>FRIENDS</div>
+		</button>
+        <div class="friend-list">
+            <!-- ici y a les amis -->
+        </div>
+        <div class="user-panel">
+            <div class="user-avatar">
+                <img src="Image/me.webp" alt="AUDRIC">
+            </div>
+            <div class="user-info">
+                <div class="user-name">AUDRIC</div>
+                <div class="user-status">online</div>
+            </div>
+            <div class="user-controls">
+                <button class="user-control-btn">
+                    <i class="fas fa-comment"></i>
+                </button>
+                <button class="user-control-btn">
+                    <i class="fas fa-cog"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="chat-area">
+        <!-- ici y a les information sur la personne que tu discute avec -->
+        <div class="chat-header">
+            <div class="chat-avatar">
+                <img src="Image/Friends.webp" alt="Nicod16">
+            </div>
+            <div class="chat-name">Ajouter des amis</div>
+        </div>
+
+        <div class="chat-messages">
+            <!-- ici il y'aura les messages-->
+        </div>
+        <div class="chat-input-area">
+            <button class="chat-input-plus">
+                <img src="Image/Fichier.png" style="max-width:600px;width:100%">
+            </button>
+            <input type="text" class="chat-input" placeholder="Entrez votre message...">
+            <button class="chat-send-btn">
+                <img src="Image/send.webp" style="max-width:600px;width:100%">
+            </button>
+        </div>
+        
+    </div>
+    <!-- Assurez-vous que Socket.IO est chargé avant script.js -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
