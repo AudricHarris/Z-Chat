@@ -21,8 +21,8 @@ Z-Chat est une application de chat en ligne qui permet aux utilisateurs de commu
 
 1. Clonez le dépôt GitHub :
    ```bash
-   git clone https://github.com/votre-username/Z-ChatOnline.git
-   cd Z-ChatOnline/Z-Chat
+   git clone https://github.com/AudricHarris/Z-Chat.git
+   cd Z-Chat
    ```
 
 2. Construisez et démarrez les conteneurs Docker :
